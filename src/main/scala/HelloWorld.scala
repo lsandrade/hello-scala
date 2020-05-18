@@ -20,6 +20,10 @@ object HelloWorld {
       println( 1 + 3)
 
       // call anonymous function
-      oncePerSecond(() => println("time flies like an arrow..."))
+//      oncePerSecond(() => println("time flies like an arrow..."))
+
+      // using classes
+      val c = new Complex(1.2, 3.4)
+      println("Imaginary part: " + c.im())
     }
 }
