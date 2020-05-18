@@ -8,5 +8,7 @@ object HelloWorld {
       println("Hello World")
 
       println(df format now)
+
+      println( 1 + 3)
     }
 }
